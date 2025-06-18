@@ -100,3 +100,9 @@ body {
 .invisible {
   display: none;
 }
+
+@media (max-width: 400px) {
+  .carousel > .slides-container > .slide {
+    height: 300px;
+  }
+}
