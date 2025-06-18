@@ -8,32 +8,38 @@
   <body>
     <h1 class="title">Carousel</h1>
     <div class="carousel">
+      <button id="left-arrow">
+        <img src="images/arrow.svg" alt="left arrow" />
+      </button>
       <div class="slides-container">
-        <div class="slide">
+        <div class="slide visible" data-visible="true">
           <img src="images/zurich.avif" alt="Zurich" />
           <h1>Zurich</h1>
         </div>
-        <div class="slide">
+        <div class="slide invisible" data-visible="false">
           <img src="images/bern.avif" alt="Bern" />
           <h1>Bern</h1>
         </div>
-        <div class="slide">
+        <div class="slide invisible" data-visible="false">
           <img src="images/geneva.avif" alt="Geneva" />
           <h1>Geneva</h1>
         </div>
-        <div class="slide">
+        <div class="slide invisible" data-visible="false">
           <img src="images/basel.avif" alt="Basel" />
           <h1>Basel</h1>
         </div>
-        <div class="slide">
+        <div class="slide invisible" data-visible="false">
           <img src="images/stgallen.avif" alt="St. Gallen" />
           <h1>St. Gallen</h1>
         </div>
-        <div class="slide">
+        <div class="slide invisible" data-visible="false">
           <img src="images/stmoritz.png" alt="St. Moritz" />
           <h1>St. Moritz</h1>
         </div>
       </div>
+      <button id="right-arrow">
+        <img src="images/arrow.svg" alt="right arrow" />
+      </button>
     </div>
   </body>
 </html>
